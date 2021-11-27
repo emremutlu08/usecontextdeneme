@@ -1,13 +1,16 @@
 /* React Main Needs */
-import React, { useContext } from "react";
-import { SplitterDialogContext } from "../SplitterDialogContext/SplitterDialogProvider";
+import React, { useContext } from 'react';
+import { SplitterDialogContext } from '../SplitterDialogContext/SplitterDialogProvider';
 
 /* Component Function */
 const SplitterDialogRightContent = (props) => {
   const [state] = useContext(SplitterDialogContext);
 
   return (
-    <div className="bg-indigo-800 h-full text-100 text-3xl text-center">
+    <div
+      className="bg-indigo-800 h-full text-100 text-3xl text-center"
+      style={{ wordWrap: 'break-word' }}
+    >
       <b>SplitterDialogRightContent</b>
       <br />
       {JSON.stringify(state)}
