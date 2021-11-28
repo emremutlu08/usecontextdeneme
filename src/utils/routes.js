@@ -6,7 +6,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import MyFirstPage from './../pages/MyFirstPage';
 import MyInitialPage from './../pages/MyInitialPage';
 
-const RouteList = (props) => {
+const RouteList = () => {
   return (
     <BrowserRouter>
       <Routes>
