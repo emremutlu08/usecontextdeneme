@@ -4,7 +4,7 @@ import React, { useContext } from 'react';
 import { SplitterDialogContext } from '../SplitterDialogContext/SplitterDialogProvider';
 
 /* Component Function */
-const SplitterDialogFooter = (props) => {
+const SplitterDialogFooter = () => {
   const [state, setState] = useContext(SplitterDialogContext);
   const canGoNext =
     state?.indexItems?.length > 0 &&

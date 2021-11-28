@@ -4,7 +4,7 @@ import { Steps } from 'primereact/steps';
 import { SplitterDialogContext } from '../SplitterDialogContext/SplitterDialogProvider';
 
 /* Component Function */
-const SplitterDialogSteps = (props) => {
+const SplitterDialogSteps = () => {
   const [state, setState] = useContext(SplitterDialogContext);
 
   return (

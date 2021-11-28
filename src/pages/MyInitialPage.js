@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import InitialPageContent from './../components/InitialPageContents/InitialPageContent';
 
 /* Component Function */
-const MyInitialPage = (props) => {
+const MyInitialPage = () => {
   return (
     <SplitterDialogContext.Consumer>
       {(value) => {

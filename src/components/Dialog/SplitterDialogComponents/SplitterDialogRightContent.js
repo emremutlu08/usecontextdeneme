@@ -3,13 +3,13 @@ import React, { useContext } from 'react';
 import { SplitterDialogContext } from '../SplitterDialogContext/SplitterDialogProvider';
 
 /* Component Function */
-const SplitterDialogRightContent = (props) => {
+const SplitterDialogRightContent = () => {
   const [state] = useContext(SplitterDialogContext);
 
   return (
     <div
-      className="bg-indigo-800 h-full text-100 text-3xl text-center"
-      style={{ wordWrap: 'break-word' }}
+      className="h-full text-100 text-3xl text-center"
+      style={{ wordWrap: 'break-word', backgroundColor: 'indigo' }}
     >
       <b>SplitterDialogRightContent</b>
       <br />

@@ -4,10 +4,9 @@ import SplitterDialog from '../components/Dialog/SplitterDialog';
 import { SplitterDialogContext } from '../components/Dialog/SplitterDialogContext/SplitterDialogProvider';
 import { Link } from 'react-router-dom';
 import FirstPageContent from './../components/FirstPageContents/FirstPageContent';
-import { FirstPageMaxIndex } from './../components/FirstPageContents/FirstPageContent';
 
 /* Component Function */
-const MyInitialPage = (props) => {
+const MyInitialPage = () => {
   return (
     <SplitterDialogContext.Consumer>
       {(value) => {
